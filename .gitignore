@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Données / sorties (non versionnées)
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Modèles (laisse le script les télécharger)
+models/*
+!models/.gitkeep
+
+# Caches / divers
+.hf_cache/
+.huggingface/
+*.mp4
+*.wav
+*.zip
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
